@@ -1,0 +1,16 @@
+#calculadora pika
+num1 = int(input('Entre com o primeiro numero:'))
+num2 = int(input('Entre com o Segundo numero: '))
+#comecando as operacoes
+soma = num1 + num2
+divi = num1 / num2
+multi = num1 * num2
+subt = num1 - num2
+resto = num1 % num2
+#fim nas operacoes
+print('-----------------------------')
+print('Soma: {soma} \nDivisao: {div} \nMultiplicacao: {mul} \nSubtracao: {sub} \nResto: {rest}'.format(soma = soma,
+                                                                                                       div = divi,
+                                                                                                       mul = multi,
+                                                                                                       sub = subt,
+                                                                                                       rest = resto))
